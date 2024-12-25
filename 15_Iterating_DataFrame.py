@@ -23,3 +23,11 @@ print()
 # ITERATING ROWS BY ITERTUPLES()
 for i in df.itertuples():
     print(f'{i}')
+
+print()
+
+# ITERATING USING ITEM()
+for i,j in df.items():    # ITS ITERATE AND GIVE COLUNM WISE DATA 
+    print(i)
+    print(j)
+    print()
